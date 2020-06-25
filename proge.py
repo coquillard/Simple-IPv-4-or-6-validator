@@ -15,11 +15,11 @@ for i in range(len(n)):
 
     if re.match(ipv6, strin):
         print("IPv6")  # If it has found an IPv6, it prints IPv6.
-        print(n[i])  # And prints the IP.
+        print(strin)  # And prints the IP.
 
     elif re.findall(ipv4, strin):
         print("IPv4")  # If it has found an IPv4, it prints IPv4.
-        print(n[i])  # And prints the IP.
+        print(strin)  # And prints the IP.
 
     else:
         print("Neither")  # When neither was found, it prints neither.
